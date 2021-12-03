@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrate acá y sé el próximo Rider de tu ciudad">
+    <meta name="keywords"
+        content="ser repartidor, ser delivery, registrarse como rider, reparto, repartir en la ciudad, trabajar como delivery, registrarse como repartidor">
+    <title>Registrate como Rider</title>
+    <link href="bcss/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="estilos.css">
+
+</head>
+
+<body>
+
+    <header><img src="imagenes/Logotipo-Negativo-horizontal.png" alt="logo" width="125">
+        <nav>
+            <ul>
+                <li><a class="link-dark text-decoration-none m-3" href="preguntas-frecuentes.html">Preguntas
+                        Frecuentes</a> </li>
+                <li><a class="link-dark text-decoration-none m-3" href="requisitos.html">Requisitos</a> </li>
+                <li><a class="link-dark text-decoration-none m-3" href="loguearme.html">Loguearme</a></li>
+                <li><a class="link-dark text-decoration-none m-3" href="registrarse.html">¡Registrate acá!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="d-flex justify-content-center">
+        <h3>Convertirte en Rider</h3>
+        </div>
+
+
+        <div class="d-flex justify-content-center m-1 p-1>
+            <form action="send.php" method="post" enctype="text/plain">
+
+
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" name="nombre" placeholder="Tu nombre completo">
+
+                <label for="dni">DNI:</label></td>
+                <input type="number" name="dni" min="6" max="11">
+        </div>
+        <div class="d-flex justify-content-center m1 p-1">
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+
+            <label for="talle">Seleccioná tu talle de indumentaria:</label>
+
+            <select name="Talles">
+                <option value="T.S">S</option>
+                <option value="T.M">M</option>
+                <option value="T.L">L</option>
+                <option value="T.XL">XL</option>
+                <option value="T.XXL">XXL</option>
+                <option value="T.XXXL">XXXL</option>
+            </select>
+        </div>
+        <div class="d-flex justify-content-center m-1 p-1">
+            Seleccioná tu vehículo:
+            <input type="radio" name="vehiculo" value="bicicleta">Bicicleta
+            <input type="radio" name="vehiculo" value="moto">Moto
+            <input type="radio" name="vehiculo" value="auto">Auto
+        </div>
+        <div class="d-flex justify-content-center m-1 p-1">
+            ¿Tenés Monotributo activo?
+            <input type="radio" name="monotributo" value="con_monotriburo">Sí
+            <input type="radio" name="monotributo" value="sin_monotriburo">No
+        </div>
+        <div class="d-flex justify-content-center m-1 p-1">
+            ¿Tenés cuenta bancaria a tu nombre? (CBU)
+            <input type="radio" name="CBU" value="con_CBU">Sí
+            <input type="radio" name="CBU" value="sin_CBU">No
+        </div>
+        <div class="d-flex justify-content-center m-1 p-1">
+            <div class="button-registrarse">
+            <input type="submit" value="Enviar">
+        </div>
+        </div>
+        </form>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <img src="imagenes/Logotipo-Negativo-horizontal.png" alt="logo" width="125">
+        <div><a class="link-dark text-decoration-none" href="BBBB" class="linksfooter">Facebook</a> | <a
+                class="link-dark text-decoration-none" href="CCCC" class="linksfooter">Youtube</a> | <a
+                class="link-dark text-decoration-none" href="DDDDD" class="linksfooter">Instagram</a></div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
